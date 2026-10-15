@@ -1,0 +1,11 @@
+node_modules
+dist
+.env
+.env.local
+*.local
+# Family data never goes into this public repository.
+data/
+scripts/import-cdr/*.svg
+scripts/import-cdr/*.cdr
+scripts/import-cdr/*.json
+!scripts/import-cdr/overrides.example.json
